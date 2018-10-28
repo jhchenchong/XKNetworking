@@ -8,9 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import "XKNetworkingDefines.h"
-#import <AFNetworking/AFNetworking.h>
 
 NS_ASSUME_NONNULL_BEGIN
+
+@class AFHTTPSessionManager;
 
 @protocol XKServiceProtocol <NSObject>
 
