@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D0CB6349D8BDA11A0085E50 /* libPods-XKNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 577EAC463018A0CD7FBBBBCA /* libPods-XKNetworking.a */; };
+		B71B335B218557A900DA68A9 /* DemoApiManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B334F218557A900DA68A9 /* DemoApiManagerViewController.m */; };
+		B71B335C218557A900DA68A9 /* DemoApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3352218557A900DA68A9 /* DemoApiManager.m */; };
+		B71B335D218557A900DA68A9 /* Target_DemoService.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3356218557A900DA68A9 /* Target_DemoService.m */; };
+		B71B335E218557A900DA68A9 /* DemoService.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3357218557A900DA68A9 /* DemoService.m */; };
+		B71B335F218557A900DA68A9 /* Target_XKAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B335A218557A900DA68A9 /* Target_XKAppContext.m */; };
+		B71B3398218557D400DA68A9 /* XKServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3362218557D400DA68A9 /* XKServiceFactory.m */; };
+		B71B3399218557D400DA68A9 /* CTMediator+XKAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3368218557D400DA68A9 /* CTMediator+XKAppContext.m */; };
+		B71B339A218557D400DA68A9 /* NSArray+XKNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B336C218557D400DA68A9 /* NSArray+XKNetworkingMethods.m */; };
+		B71B339B218557D400DA68A9 /* NSDictionary+XKNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B336F218557D400DA68A9 /* NSDictionary+XKNetworkingMethods.m */; };
+		B71B339C218557D400DA68A9 /* NSURLRequest+XKNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3372218557D400DA68A9 /* NSURLRequest+XKNetworkingMethods.m */; };
+		B71B339D218557D400DA68A9 /* NSString+XKNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3376218557D400DA68A9 /* NSString+XKNetworkingMethods.m */; };
+		B71B339E218557D400DA68A9 /* NSMutableString+XKNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3377218557D400DA68A9 /* NSMutableString+XKNetworkingMethods.m */; };
+		B71B339F218557D400DA68A9 /* NSObject+XKNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B337A218557D400DA68A9 /* NSObject+XKNetworkingMethods.m */; };
+		B71B33A0218557D400DA68A9 /* XKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B337D218557D400DA68A9 /* XKLogger.m */; };
+		B71B33A1218557D400DA68A9 /* XKURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3381218557D400DA68A9 /* XKURLResponse.m */; };
+		B71B33A2218557D400DA68A9 /* Target_H5API.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3383218557D400DA68A9 /* Target_H5API.m */; };
+		B71B33A3218557D400DA68A9 /* XKAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3387218557D400DA68A9 /* XKAPIBaseManager.m */; };
+		B71B33A4218557D400DA68A9 /* XKApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B338A218557D400DA68A9 /* XKApiProxy.m */; };
+		B71B33A5218557D400DA68A9 /* XKCacheCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B338C218557D400DA68A9 /* XKCacheCenter.m */; };
+		B71B33A6218557D400DA68A9 /* XKMemoryCacheDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B338E218557D400DA68A9 /* XKMemoryCacheDataCenter.m */; };
+		B71B33A7218557D400DA68A9 /* XKMemoryCachedRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B3390218557D400DA68A9 /* XKMemoryCachedRecord.m */; };
+		B71B33A8218557D400DA68A9 /* XKDiskCacheCenter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B71B3395218557D400DA68A9 /* XKDiskCacheCenter.mm */; };
+		B7CCB6A02185560400A38DE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CCB69F2185560400A38DE0 /* AppDelegate.m */; };
+		B7CCB6A32185560400A38DE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CCB6A22185560400A38DE0 /* ViewController.m */; };
+		B7CCB6A62185560400A38DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CCB6A42185560400A38DE0 /* Main.storyboard */; };
+		B7CCB6A82185560400A38DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7CCB6A72185560400A38DE0 /* Assets.xcassets */; };
+		B7CCB6AB2185560400A38DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7CCB6A92185560400A38DE0 /* LaunchScreen.storyboard */; };
+		B7CCB6AE2185560400A38DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CCB6AD2185560400A38DE0 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1317475E1F73087728B21703 /* Pods-XKNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XKNetworking/Pods-XKNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		577EAC463018A0CD7FBBBBCA /* libPods-XKNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XKNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DEBC0049B1288BC3AB2229 /* Pods-XKNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XKNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-XKNetworking/Pods-XKNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		B71B334E218557A900DA68A9 /* DemoApiManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoApiManagerViewController.h; sourceTree = "<group>"; };
+		B71B334F218557A900DA68A9 /* DemoApiManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoApiManagerViewController.m; sourceTree = "<group>"; };
+		B71B3351218557A900DA68A9 /* DemoApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoApiManager.h; sourceTree = "<group>"; };
+		B71B3352218557A900DA68A9 /* DemoApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoApiManager.m; sourceTree = "<group>"; };
+		B71B3354218557A900DA68A9 /* Target_DemoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_DemoService.h; sourceTree = "<group>"; };
+		B71B3355218557A900DA68A9 /* DemoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoService.h; sourceTree = "<group>"; };
+		B71B3356218557A900DA68A9 /* Target_DemoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_DemoService.m; sourceTree = "<group>"; };
+		B71B3357218557A900DA68A9 /* DemoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoService.m; sourceTree = "<group>"; };
+		B71B3359218557A900DA68A9 /* Target_XKAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_XKAppContext.h; sourceTree = "<group>"; };
+		B71B335A218557A900DA68A9 /* Target_XKAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_XKAppContext.m; sourceTree = "<group>"; };
+		B71B3361218557D400DA68A9 /* XKServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKServiceProtocol.h; sourceTree = "<group>"; };
+		B71B3362218557D400DA68A9 /* XKServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKServiceFactory.m; sourceTree = "<group>"; };
+		B71B3363218557D400DA68A9 /* XKServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKServiceFactory.h; sourceTree = "<group>"; };
+		B71B3364218557D400DA68A9 /* XKNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKNetworking.h; sourceTree = "<group>"; };
+		B71B3368218557D400DA68A9 /* CTMediator+XKAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+XKAppContext.m"; sourceTree = "<group>"; };
+		B71B3369218557D400DA68A9 /* CTMediator+XKAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+XKAppContext.h"; sourceTree = "<group>"; };
+		B71B336B218557D400DA68A9 /* NSArray+XKNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XKNetworkingMethods.h"; sourceTree = "<group>"; };
+		B71B336C218557D400DA68A9 /* NSArray+XKNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XKNetworkingMethods.m"; sourceTree = "<group>"; };
+		B71B336E218557D400DA68A9 /* NSDictionary+XKNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+XKNetworkingMethods.h"; sourceTree = "<group>"; };
+		B71B336F218557D400DA68A9 /* NSDictionary+XKNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+XKNetworkingMethods.m"; sourceTree = "<group>"; };
+		B71B3371218557D400DA68A9 /* NSURLRequest+XKNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+XKNetworkingMethods.h"; sourceTree = "<group>"; };
+		B71B3372218557D400DA68A9 /* NSURLRequest+XKNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+XKNetworkingMethods.m"; sourceTree = "<group>"; };
+		B71B3374218557D400DA68A9 /* NSMutableString+XKNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+XKNetworkingMethods.h"; sourceTree = "<group>"; };
+		B71B3375218557D400DA68A9 /* NSString+XKNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XKNetworkingMethods.h"; sourceTree = "<group>"; };
+		B71B3376218557D400DA68A9 /* NSString+XKNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XKNetworkingMethods.m"; sourceTree = "<group>"; };
+		B71B3377218557D400DA68A9 /* NSMutableString+XKNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+XKNetworkingMethods.m"; sourceTree = "<group>"; };
+		B71B3379218557D400DA68A9 /* NSObject+XKNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XKNetworkingMethods.h"; sourceTree = "<group>"; };
+		B71B337A218557D400DA68A9 /* NSObject+XKNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XKNetworkingMethods.m"; sourceTree = "<group>"; };
+		B71B337D218557D400DA68A9 /* XKLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKLogger.m; sourceTree = "<group>"; };
+		B71B337E218557D400DA68A9 /* XKLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKLogger.h; sourceTree = "<group>"; };
+		B71B3380218557D400DA68A9 /* XKURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKURLResponse.h; sourceTree = "<group>"; };
+		B71B3381218557D400DA68A9 /* XKURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKURLResponse.m; sourceTree = "<group>"; };
+		B71B3383218557D400DA68A9 /* Target_H5API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_H5API.m; sourceTree = "<group>"; };
+		B71B3384218557D400DA68A9 /* Target_H5API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_H5API.h; sourceTree = "<group>"; };
+		B71B3386218557D400DA68A9 /* XKAPIBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKAPIBaseManager.h; sourceTree = "<group>"; };
+		B71B3387218557D400DA68A9 /* XKAPIBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKAPIBaseManager.m; sourceTree = "<group>"; };
+		B71B3389218557D400DA68A9 /* XKApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKApiProxy.h; sourceTree = "<group>"; };
+		B71B338A218557D400DA68A9 /* XKApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKApiProxy.m; sourceTree = "<group>"; };
+		B71B338C218557D400DA68A9 /* XKCacheCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKCacheCenter.m; sourceTree = "<group>"; };
+		B71B338E218557D400DA68A9 /* XKMemoryCacheDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKMemoryCacheDataCenter.m; sourceTree = "<group>"; };
+		B71B3390218557D400DA68A9 /* XKMemoryCachedRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XKMemoryCachedRecord.m; sourceTree = "<group>"; };
+		B71B3391218557D400DA68A9 /* XKMemoryCachedRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKMemoryCachedRecord.h; sourceTree = "<group>"; };
+		B71B3392218557D400DA68A9 /* XKMemoryCacheDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKMemoryCacheDataCenter.h; sourceTree = "<group>"; };
+		B71B3394218557D400DA68A9 /* XKDiskCacheCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKDiskCacheCenter.h; sourceTree = "<group>"; };
+		B71B3395218557D400DA68A9 /* XKDiskCacheCenter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XKDiskCacheCenter.mm; sourceTree = "<group>"; };
+		B71B3396218557D400DA68A9 /* XKCacheCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKCacheCenter.h; sourceTree = "<group>"; };
+		B71B3397218557D400DA68A9 /* XKNetworkingDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XKNetworkingDefines.h; sourceTree = "<group>"; };
+		B7CCB69B2185560400A38DE0 /* XKNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XKNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7CCB69E2185560400A38DE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7CCB69F2185560400A38DE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7CCB6A12185560400A38DE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7CCB6A22185560400A38DE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7CCB6A52185560400A38DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7CCB6A72185560400A38DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7CCB6AA2185560400A38DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7CCB6AC2185560400A38DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7CCB6AD2185560400A38DE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7CCB6982185560400A38DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D0CB6349D8BDA11A0085E50 /* libPods-XKNetworking.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		613E1861CF97452205E8E78A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				577EAC463018A0CD7FBBBBCA /* libPods-XKNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B71B334B2185575200DA68A9 /* XKNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3365218557D400DA68A9 /* Categories */,
+				B71B337B218557D400DA68A9 /* Components */,
+				B71B3360218557D400DA68A9 /* Services */,
+				B71B3364218557D400DA68A9 /* XKNetworking.h */,
+				B71B3397218557D400DA68A9 /* XKNetworkingDefines.h */,
+			);
+			path = XKNetworking;
+			sourceTree = "<group>";
+		};
+		B71B334C218557A900DA68A9 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B71B334D218557A900DA68A9 /* DemoApiManagerViewController */,
+				B71B3353218557A900DA68A9 /* DemoService */,
+				B71B3358218557A900DA68A9 /* DemoAppContext */,
+			);
+			path = Demo;
+			sourceTree = SOURCE_ROOT;
+		};
+		B71B334D218557A900DA68A9 /* DemoApiManagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B71B334E218557A900DA68A9 /* DemoApiManagerViewController.h */,
+				B71B334F218557A900DA68A9 /* DemoApiManagerViewController.m */,
+				B71B3350218557A900DA68A9 /* DemoApiManager */,
+			);
+			path = DemoApiManagerViewController;
+			sourceTree = "<group>";
+		};
+		B71B3350218557A900DA68A9 /* DemoApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3351218557A900DA68A9 /* DemoApiManager.h */,
+				B71B3352218557A900DA68A9 /* DemoApiManager.m */,
+			);
+			path = DemoApiManager;
+			sourceTree = "<group>";
+		};
+		B71B3353218557A900DA68A9 /* DemoService */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3354218557A900DA68A9 /* Target_DemoService.h */,
+				B71B3355218557A900DA68A9 /* DemoService.h */,
+				B71B3356218557A900DA68A9 /* Target_DemoService.m */,
+				B71B3357218557A900DA68A9 /* DemoService.m */,
+			);
+			path = DemoService;
+			sourceTree = "<group>";
+		};
+		B71B3358218557A900DA68A9 /* DemoAppContext */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3359218557A900DA68A9 /* Target_XKAppContext.h */,
+				B71B335A218557A900DA68A9 /* Target_XKAppContext.m */,
+			);
+			path = DemoAppContext;
+			sourceTree = "<group>";
+		};
+		B71B3360218557D400DA68A9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3361218557D400DA68A9 /* XKServiceProtocol.h */,
+				B71B3362218557D400DA68A9 /* XKServiceFactory.m */,
+				B71B3363218557D400DA68A9 /* XKServiceFactory.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B71B3365218557D400DA68A9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3366218557D400DA68A9 /* CTMediator */,
+				B71B336A218557D400DA68A9 /* Array */,
+				B71B336D218557D400DA68A9 /* Dictionary */,
+				B71B3370218557D400DA68A9 /* NSURLRequest */,
+				B71B3373218557D400DA68A9 /* String */,
+				B71B3378218557D400DA68A9 /* NSObject */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B71B3366218557D400DA68A9 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3367218557D400DA68A9 /* AppContext */,
+			);
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		B71B3367218557D400DA68A9 /* AppContext */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3368218557D400DA68A9 /* CTMediator+XKAppContext.m */,
+				B71B3369218557D400DA68A9 /* CTMediator+XKAppContext.h */,
+			);
+			path = AppContext;
+			sourceTree = "<group>";
+		};
+		B71B336A218557D400DA68A9 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				B71B336B218557D400DA68A9 /* NSArray+XKNetworkingMethods.h */,
+				B71B336C218557D400DA68A9 /* NSArray+XKNetworkingMethods.m */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		B71B336D218557D400DA68A9 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				B71B336E218557D400DA68A9 /* NSDictionary+XKNetworkingMethods.h */,
+				B71B336F218557D400DA68A9 /* NSDictionary+XKNetworkingMethods.m */,
+			);
+			path = Dictionary;
+			sourceTree = "<group>";
+		};
+		B71B3370218557D400DA68A9 /* NSURLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3371218557D400DA68A9 /* NSURLRequest+XKNetworkingMethods.h */,
+				B71B3372218557D400DA68A9 /* NSURLRequest+XKNetworkingMethods.m */,
+			);
+			path = NSURLRequest;
+			sourceTree = "<group>";
+		};
+		B71B3373218557D400DA68A9 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3374218557D400DA68A9 /* NSMutableString+XKNetworkingMethods.h */,
+				B71B3375218557D400DA68A9 /* NSString+XKNetworkingMethods.h */,
+				B71B3376218557D400DA68A9 /* NSString+XKNetworkingMethods.m */,
+				B71B3377218557D400DA68A9 /* NSMutableString+XKNetworkingMethods.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		B71B3378218557D400DA68A9 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3379218557D400DA68A9 /* NSObject+XKNetworkingMethods.h */,
+				B71B337A218557D400DA68A9 /* NSObject+XKNetworkingMethods.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		B71B337B218557D400DA68A9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B71B337C218557D400DA68A9 /* LogComponents */,
+				B71B337F218557D400DA68A9 /* URLResponse */,
+				B71B3382218557D400DA68A9 /* BaseAPITarget */,
+				B71B3385218557D400DA68A9 /* BaseAPIManager */,
+				B71B3388218557D400DA68A9 /* APIProxy */,
+				B71B338B218557D400DA68A9 /* CacheComponents */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B71B337C218557D400DA68A9 /* LogComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B71B337D218557D400DA68A9 /* XKLogger.m */,
+				B71B337E218557D400DA68A9 /* XKLogger.h */,
+			);
+			path = LogComponents;
+			sourceTree = "<group>";
+		};
+		B71B337F218557D400DA68A9 /* URLResponse */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3380218557D400DA68A9 /* XKURLResponse.h */,
+				B71B3381218557D400DA68A9 /* XKURLResponse.m */,
+			);
+			path = URLResponse;
+			sourceTree = "<group>";
+		};
+		B71B3382218557D400DA68A9 /* BaseAPITarget */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3383218557D400DA68A9 /* Target_H5API.m */,
+				B71B3384218557D400DA68A9 /* Target_H5API.h */,
+			);
+			path = BaseAPITarget;
+			sourceTree = "<group>";
+		};
+		B71B3385218557D400DA68A9 /* BaseAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3386218557D400DA68A9 /* XKAPIBaseManager.h */,
+				B71B3387218557D400DA68A9 /* XKAPIBaseManager.m */,
+			);
+			path = BaseAPIManager;
+			sourceTree = "<group>";
+		};
+		B71B3388218557D400DA68A9 /* APIProxy */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3389218557D400DA68A9 /* XKApiProxy.h */,
+				B71B338A218557D400DA68A9 /* XKApiProxy.m */,
+			);
+			path = APIProxy;
+			sourceTree = "<group>";
+		};
+		B71B338B218557D400DA68A9 /* CacheComponents */ = {
+			isa = PBXGroup;
+			children = (
+				B71B338C218557D400DA68A9 /* XKCacheCenter.m */,
+				B71B338D218557D400DA68A9 /* MemCacheDataCenter */,
+				B71B3393218557D400DA68A9 /* DiskCacheDataCenter */,
+				B71B3396218557D400DA68A9 /* XKCacheCenter.h */,
+			);
+			path = CacheComponents;
+			sourceTree = "<group>";
+		};
+		B71B338D218557D400DA68A9 /* MemCacheDataCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B71B338E218557D400DA68A9 /* XKMemoryCacheDataCenter.m */,
+				B71B338F218557D400DA68A9 /* MemoryCachedRecord */,
+				B71B3392218557D400DA68A9 /* XKMemoryCacheDataCenter.h */,
+			);
+			path = MemCacheDataCenter;
+			sourceTree = "<group>";
+		};
+		B71B338F218557D400DA68A9 /* MemoryCachedRecord */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3390218557D400DA68A9 /* XKMemoryCachedRecord.m */,
+				B71B3391218557D400DA68A9 /* XKMemoryCachedRecord.h */,
+			);
+			path = MemoryCachedRecord;
+			sourceTree = "<group>";
+		};
+		B71B3393218557D400DA68A9 /* DiskCacheDataCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B71B3394218557D400DA68A9 /* XKDiskCacheCenter.h */,
+				B71B3395218557D400DA68A9 /* XKDiskCacheCenter.mm */,
+			);
+			path = DiskCacheDataCenter;
+			sourceTree = "<group>";
+		};
+		B7CCB6922185560400A38DE0 = {
+			isa = PBXGroup;
+			children = (
+				B7CCB69D2185560400A38DE0 /* XKNetworking */,
+				B7CCB69C2185560400A38DE0 /* Products */,
+				D59C9D0A073C2A9FC5B8F5F5 /* Pods */,
+				613E1861CF97452205E8E78A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7CCB69C2185560400A38DE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7CCB69B2185560400A38DE0 /* XKNetworking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7CCB69D2185560400A38DE0 /* XKNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				B71B334C218557A900DA68A9 /* Demo */,
+				B71B334B2185575200DA68A9 /* XKNetworking */,
+				B7CCB69E2185560400A38DE0 /* AppDelegate.h */,
+				B7CCB69F2185560400A38DE0 /* AppDelegate.m */,
+				B7CCB6A12185560400A38DE0 /* ViewController.h */,
+				B7CCB6A22185560400A38DE0 /* ViewController.m */,
+				B7CCB6A42185560400A38DE0 /* Main.storyboard */,
+				B7CCB6A72185560400A38DE0 /* Assets.xcassets */,
+				B7CCB6A92185560400A38DE0 /* LaunchScreen.storyboard */,
+				B7CCB6AC2185560400A38DE0 /* Info.plist */,
+				B7CCB6AD2185560400A38DE0 /* main.m */,
+			);
+			path = XKNetworking;
+			sourceTree = "<group>";
+		};
+		D59C9D0A073C2A9FC5B8F5F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1317475E1F73087728B21703 /* Pods-XKNetworking.debug.xcconfig */,
+				93DEBC0049B1288BC3AB2229 /* Pods-XKNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7CCB69A2185560400A38DE0 /* XKNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CCB6B12185560400A38DE0 /* Build configuration list for PBXNativeTarget "XKNetworking" */;
+			buildPhases = (
+				DFCD8A035FB1A4B6A38B00EF /* [CP] Check Pods Manifest.lock */,
+				B7CCB6972185560400A38DE0 /* Sources */,
+				B7CCB6982185560400A38DE0 /* Frameworks */,
+				B7CCB6992185560400A38DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKNetworking;
+			productName = XKNetworking;
+			productReference = B7CCB69B2185560400A38DE0 /* XKNetworking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7CCB6932185560400A38DE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "浪漫恋星空";
+				TargetAttributes = {
+					B7CCB69A2185560400A38DE0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = B7CCB6962185560400A38DE0 /* Build configuration list for PBXProject "XKNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7CCB6922185560400A38DE0;
+			productRefGroup = B7CCB69C2185560400A38DE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7CCB69A2185560400A38DE0 /* XKNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7CCB6992185560400A38DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7CCB6AB2185560400A38DE0 /* LaunchScreen.storyboard in Resources */,
+				B7CCB6A82185560400A38DE0 /* Assets.xcassets in Resources */,
+				B7CCB6A62185560400A38DE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFCD8A035FB1A4B6A38B00EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XKNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7CCB6972185560400A38DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71B339A218557D400DA68A9 /* NSArray+XKNetworkingMethods.m in Sources */,
+				B71B339D218557D400DA68A9 /* NSString+XKNetworkingMethods.m in Sources */,
+				B71B3399218557D400DA68A9 /* CTMediator+XKAppContext.m in Sources */,
+				B71B335C218557A900DA68A9 /* DemoApiManager.m in Sources */,
+				B71B33A8218557D400DA68A9 /* XKDiskCacheCenter.mm in Sources */,
+				B71B33A3218557D400DA68A9 /* XKAPIBaseManager.m in Sources */,
+				B71B335E218557A900DA68A9 /* DemoService.m in Sources */,
+				B71B33A4218557D400DA68A9 /* XKApiProxy.m in Sources */,
+				B71B339E218557D400DA68A9 /* NSMutableString+XKNetworkingMethods.m in Sources */,
+				B7CCB6A32185560400A38DE0 /* ViewController.m in Sources */,
+				B71B33A1218557D400DA68A9 /* XKURLResponse.m in Sources */,
+				B71B339C218557D400DA68A9 /* NSURLRequest+XKNetworkingMethods.m in Sources */,
+				B71B33A6218557D400DA68A9 /* XKMemoryCacheDataCenter.m in Sources */,
+				B71B33A7218557D400DA68A9 /* XKMemoryCachedRecord.m in Sources */,
+				B71B33A2218557D400DA68A9 /* Target_H5API.m in Sources */,
+				B71B3398218557D400DA68A9 /* XKServiceFactory.m in Sources */,
+				B71B339B218557D400DA68A9 /* NSDictionary+XKNetworkingMethods.m in Sources */,
+				B7CCB6AE2185560400A38DE0 /* main.m in Sources */,
+				B71B339F218557D400DA68A9 /* NSObject+XKNetworkingMethods.m in Sources */,
+				B71B335D218557A900DA68A9 /* Target_DemoService.m in Sources */,
+				B71B335B218557A900DA68A9 /* DemoApiManagerViewController.m in Sources */,
+				B71B33A5218557D400DA68A9 /* XKCacheCenter.m in Sources */,
+				B7CCB6A02185560400A38DE0 /* AppDelegate.m in Sources */,
+				B71B33A0218557D400DA68A9 /* XKLogger.m in Sources */,
+				B71B335F218557A900DA68A9 /* Target_XKAppContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B7CCB6A42185560400A38DE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CCB6A52185560400A38DE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7CCB6A92185560400A38DE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7CCB6AA2185560400A38DE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7CCB6AF2185560400A38DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7CCB6B02185560400A38DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7CCB6B22185560400A38DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1317475E1F73087728B21703 /* Pods-XKNetworking.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XKNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.XKNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7CCB6B32185560400A38DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DEBC0049B1288BC3AB2229 /* Pods-XKNetworking.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XKNetworking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.XKNetworking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7CCB6962185560400A38DE0 /* Build configuration list for PBXProject "XKNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CCB6AF2185560400A38DE0 /* Debug */,
+				B7CCB6B02185560400A38DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7CCB6B12185560400A38DE0 /* Build configuration list for PBXNativeTarget "XKNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CCB6B22185560400A38DE0 /* Debug */,
+				B7CCB6B32185560400A38DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7CCB6932185560400A38DE0 /* Project object */;
+}

@@ -1,0 +1,7 @@
+XKNetworking.xcodeproj/xcuserdata/
+XKNetworking.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+XKNetworking.xcodeproj/project.xcworkspace/xcuserdata/
