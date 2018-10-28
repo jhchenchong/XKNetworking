@@ -7,7 +7,6 @@
 //
 
 #import "DemoService.h"
-#import <AFNetworking/AFNetworking.h>
 
 @interface DemoService ()
 
