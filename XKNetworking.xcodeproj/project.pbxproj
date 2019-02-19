@@ -166,8 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				B71B3354218557A900DA68A9 /* Target_DemoService.h */,
-				B71B3355218557A900DA68A9 /* DemoService.h */,
 				B71B3356218557A900DA68A9 /* Target_DemoService.m */,
+				B71B3355218557A900DA68A9 /* DemoService.h */,
 				B71B3357218557A900DA68A9 /* DemoService.m */,
 			);
 			path = DemoService;

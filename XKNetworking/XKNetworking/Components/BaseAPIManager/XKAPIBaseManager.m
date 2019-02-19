@@ -136,7 +136,6 @@ NSString * const kXKAPIBaseManagerRequestID = @"kXKAPIBaseManagerRequestID";
             
             // 实际的网络请求
             if ([self isReachable]) {
-                self.isLoading = YES;
                 
                 id <XKServiceProtocol> service = [[XKServiceFactory sharedInstance] serviceWithIdentifier:self.child.serviceIdentifier];
                 NSURLRequest *request = [service requestWithParams:reformedParams methodName:self.child.methodName requestType:self.child.requestType];
@@ -159,6 +158,7 @@ NSString * const kXKAPIBaseManagerRequestID = @"kXKAPIBaseManagerRequestID";
                     [self failedOnCallingAPI:response withErrorType:errorType];
                 }];
                 [self.requestIdList addObject:requestId];
+                self.isLoading = YES;
                 
                 NSMutableDictionary *params = [reformedParams mutableCopy];
                 params[kXKAPIBaseManagerRequestID] = requestId;
